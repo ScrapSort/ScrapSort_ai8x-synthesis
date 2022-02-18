@@ -1,2 +1,2 @@
 #!/bin/bash
-./ai8xize.py --verbose --log --test-dir sdk/Examples/MAX78000/CNN --prefix simplesortbnbbl1 --no-bias 0,1,2 --checkpoint-file trained/sort_qat_bb_l1-q.pth.tar --config-file networks/simplesortingbb.yaml --device MAX78000 --softmax --compact-data --mexpress --timer 0 --fifo --display-checkpoint
+./ai8xize.py --verbose --log --test-dir sdk/Examples/MAX78000/CNN --prefix simplesortbnbbl12 --no-bias 0,1,2 --checkpoint-file trained/sort_qat_bb_l12-q.pth.tar --config-file networks/simplesortingbb.yaml --device MAX78000 --softmax --compact-data --mexpress --timer 0 --fifo --display-checkpoint

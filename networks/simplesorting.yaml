@@ -81,7 +81,7 @@ layers:
   flatten: true
   out_offset: 0x2000
   processors: 0xffffffffffffffff
-- op: mlp # L11: 12x1 --> 6x1
+- op: mlp # L11: 12x1 --> 7x1
   out_offset: 0x0000
   flatten: true
   output_width: 32
